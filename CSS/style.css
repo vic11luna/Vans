@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{margin: 0; padding: 0; }
+
+body {background-color: black; ont-family: titulos; font-size: 15px; text-align: center; cursor: url("../IMG/Base/teniscursor.png") , auto; }
+
+@font-face {src: url("../SRC/LeagueGothic-Regular.otf"); font-family: titulos}
+@font-face {src: url("../SRC/LeagueMono-Regular.otf"); font-family: cuerpo}
+
+.header {width: 100%; height: 100px; background-color: rgba(167,10,12,1.00); background-repeat: no-repeat; background-size: cover; margin: 0 auto; }
+
+.header {position: fixed; left: auto; top: 0px; }
+
+.header img {float:inherit; margin-top: 10px;}
+
+.menu {width: 100%; height: auto; color: darkred; margin: 0 auto; position: fixed; left: auto; top: 80px;}
+
+.menu {font-family: titulos; font-size: 20px;}
+
+.menu ul { list-style-type: none; width: 100%; }
+
+.menu li { width: 25%; background-color: darkred; height: 50%; float: left; line-height: 50px;  }
+
+.menu li:hover {background-color: black; }
+
+.menu a { text-decoration: none; color: white; }
+
+.wrapper { width: 85%; height: auto; background-color: white; margin: 0 auto; padding-top: 180px; font-family: titulos, cuerpo; }
+
+
+.footer { width: 85%; height: auto; line-height: 50px; background-color: grey; margin: 0 auto; background-size: contain; color: white; } 
+
+
+
+
+.h1{font-family: titulos;}
+.h2{font-family: titulos;}
+.h3{font-family: titulos;}
+.h4{font-family: titulos;}
+
+
+/* RETICULA*/
+.col01 {width: 10%;}
+.col02 {width: 20%;}
+.col03 {width: 30%;}
+.col04 {width: 40%;}
+.col05 {width: 50%;}
+.col06 {width: 60%;}
+.col07 {width: 70%;}
+.col08 {width: 80%;}
+.col09 {width: 90%;}
+.col10 {width: 100%;}
+
+	.distor:hover {transform: scale(2); transition: ease-in 5s;}
+	.a:hover{transform:translate(100px, 50px); transition: ease-out 5s;}
+
+.section {padding: 20px; box-sizing: border-box; float: left; }
+
+.clear {clear: both; }
+
+.wrapper p {font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; text-align: justify;}
+
+
+.slider {width:80%; height: 50%; margin: 50px auto;}
+		.slider ul {list-style-type: none; width: 100%; display: flex; animation: jamon 10s infinite alternate;}
+		.slider img {width:auto; height:50%;}
+		@keyframes jamon {
+			
+			
+			0% {margin-left: 0;}
+			25% {margin-left: 0;}
+			
+			35% {margin-left: -100%;}
+			45% {margin-left: -100%;}
+			
+			55% {margin-left: -200%;}
+		    65% {margin-left: -200%;}
+			
+			75% {margin-left: -300%;}
+			85% {margin-left: -300%;}
+			
+			95% {margin-left: -400%;}
+			100% {margin-left: -400%;}
+			
+.cajita {background-color:black; width: 800px; margin: 0 auto; padding: 50px; margin-top: 50px;}
+h1 {color: white; text-align: center; font-family:titulos; line-height: 45px; }
+			
+	
